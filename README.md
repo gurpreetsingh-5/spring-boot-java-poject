@@ -14,11 +14,41 @@ dependencies – spring web and spring reactive web
 the generate and download
 
 ```
+
 ## Or but recommended  above process
 ```
 https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 ```
+```
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+```
+
+### Create ec2 instance
+```
+inbound rule 
+SMTP 25
+HTTPS 443
+HTTP 80
+RDP 3389
+CUSTOM TCP 9090
+CUSTOM TCP 8000-9000
+CUSTOM TCP 3000-4000
+CUSTOM TCP 27017
+CUSTOM TCP 5000-6000
+CUSTOM TCP 30000-32767
+SSH 22
+POSTGRESQL 5432
+
+
+```
+```
+sudo apt update
+sudo apt install openjdk-17-jre -y
+sudo apt install maven -y
+java -version
+mvn –version
+
+
 ```
 
 ## To Build & Run This project, follow the steps.
