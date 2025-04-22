@@ -3,7 +3,17 @@
 ```
 https://start.spring.io/
 ```
+### In start.spring.io  select the option
+```
+project – maven
+language – java 
+spring boot – 3.4.4
+packaging – jar
+java – 17
+dependencies – spring web and spring reactive web
+the generate and download
 
+```
 ```
 https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 ```
