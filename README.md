@@ -48,7 +48,6 @@ sudo apt install maven -y
 java -version
 mvn –version
 
-
 ```
 
 ## To Build & Run This project, follow the steps.
