@@ -1,4 +1,15 @@
 # spring-boot-java-poject
+## Creating a Project
+```
+https://start.spring.io/
+```
+
+```
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+```
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+```
+
 ## To Build & Run This project, follow the steps.
 
 --> Clone the Project
