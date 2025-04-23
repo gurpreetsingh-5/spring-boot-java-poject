@@ -46,7 +46,7 @@ sudo apt update
 sudo apt install openjdk-17-jre -y
 sudo apt install maven -y
 java -version
-mvn –version
+mvn -version
 
 ```
 
